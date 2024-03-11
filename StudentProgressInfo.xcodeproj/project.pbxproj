@@ -16,6 +16,9 @@
 		8410A14F2B9A806E007E1C3B /* StudentProgressInfoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8410A14E2B9A806E007E1C3B /* StudentProgressInfoTests.swift */; };
 		8410A1592B9A806E007E1C3B /* StudentProgressInfoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8410A1582B9A806E007E1C3B /* StudentProgressInfoUITests.swift */; };
 		8410A15B2B9A806E007E1C3B /* StudentProgressInfoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8410A15A2B9A806E007E1C3B /* StudentProgressInfoUITestsLaunchTests.swift */; };
+		8410A1682B9A813F007E1C3B /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8410A1672B9A813F007E1C3B /* CoreDataManager.swift */; };
+		8410A16A2B9A8191007E1C3B /* ReportListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8410A1692B9A8191007E1C3B /* ReportListView.swift */; };
+		8410A16C2B9A8250007E1C3B /* SubmitDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8410A16B2B9A824F007E1C3B /* SubmitDescriptionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,9 @@
 		8410A1542B9A806E007E1C3B /* StudentProgressInfoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudentProgressInfoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8410A1582B9A806E007E1C3B /* StudentProgressInfoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentProgressInfoUITests.swift; sourceTree = "<group>"; };
 		8410A15A2B9A806E007E1C3B /* StudentProgressInfoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentProgressInfoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8410A1672B9A813F007E1C3B /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		8410A1692B9A8191007E1C3B /* ReportListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportListView.swift; sourceTree = "<group>"; };
+		8410A16B2B9A824F007E1C3B /* SubmitDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitDescriptionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 			children = (
 				8410A1382B9A806C007E1C3B /* StudentProgressInfoApp.swift */,
 				8410A13A2B9A806C007E1C3B /* ContentView.swift */,
+				8410A1672B9A813F007E1C3B /* CoreDataManager.swift */,
+				8410A1692B9A8191007E1C3B /* ReportListView.swift */,
+				8410A16B2B9A824F007E1C3B /* SubmitDescriptionView.swift */,
 				8410A13C2B9A806E007E1C3B /* Assets.xcassets */,
 				8410A1412B9A806E007E1C3B /* Persistence.swift */,
 				8410A1432B9A806E007E1C3B /* StudentProgressInfo.xcdatamodeld */,
@@ -263,9 +272,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8410A16C2B9A8250007E1C3B /* SubmitDescriptionView.swift in Sources */,
 				8410A1452B9A806E007E1C3B /* StudentProgressInfo.xcdatamodeld in Sources */,
 				8410A1422B9A806E007E1C3B /* Persistence.swift in Sources */,
 				8410A13B2B9A806C007E1C3B /* ContentView.swift in Sources */,
+				8410A1682B9A813F007E1C3B /* CoreDataManager.swift in Sources */,
+				8410A16A2B9A8191007E1C3B /* ReportListView.swift in Sources */,
 				8410A1392B9A806C007E1C3B /* StudentProgressInfoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
